@@ -374,3 +374,42 @@ body {
     font-size: 14px;
     font-weight: 500;
 }
+/* Mobile Responsive Navigation */
+.menu-toggle {
+    display: none; /* Hidden on Desktop */
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Shows up on Mobile */
+    }
+
+    .nav-links {
+        display: none; /* Hide links by default on mobile */
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: #0d233a;
+        text-align: center;
+        padding: 20px 0;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .nav-links.active {
+        display: flex; /* Show links when hamburger is clicked */
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+    
+    /* Adjust Hero Header sizing for mobile screens */
+    .hero-content h1 {
+        font-size: 32px;
+    }
+}
