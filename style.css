@@ -118,6 +118,7 @@ body {
     background-color: white;
     color: #0d233a;
 }
+
 /* Features Section Styling */
 .features {
     padding: 80px 10%;
@@ -160,7 +161,7 @@ body {
 .feature-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
-    border-top-color: #d4af37; /* Shifts to gold accent on hover */
+    border-top-color: #d4af37;
 }
 
 .feature-card .icon {
