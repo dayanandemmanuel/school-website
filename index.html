@@ -10,9 +10,9 @@
 
     <nav class="navbar">
         <div class="nav-logo">🏫 Grand Academy</div>
-        <ul class="nav-links">
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="about.html">About Us</a></li>
-            <li><a href="#">About Us</a></li>
             <li><a href="academics.html">Academics</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -25,7 +25,7 @@
             <p>Welcome to Grand Academy, where academic excellence meets holistic development. Join our community today.</p>
             <div class="hero-buttons">
                 <button id="welcomeBtn" class="btn-primary">Explore Programs</button>
-                <button class="btn-secondary">Apply Now</button>
+                <button class="btn-secondary" onclick="window.location.href='contact.html'">Apply Now</button>
             </div>
         </div>
     </header>
@@ -57,10 +57,11 @@
         </div>
     </section>
 
-    <script src="script.js"></script>
     <footer>
         <p>&copy; 2026 Grand Academy. All Rights Reserved.</p>
         <p>Empowering Students to Lead and Innovate.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

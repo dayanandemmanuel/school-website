@@ -10,12 +10,13 @@
 
     <nav class="navbar">
         <div class="nav-logo">🏫 Grand Academy</div>
-        <ul class="nav-links">
+        <ul class="nav-links" id="navLinks">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="academics.html">Academics</a></li>
             <li><a href="contact.html" class="active">Contact</a></li>
         </ul>
+        <div class="menu-toggle" id="mobileMenu">☰</div>
     </nav>
 
     <section class="contact-container">
@@ -24,7 +25,9 @@
             <p>Have questions about enrollment? Fill out the form below, and our admissions team will reach out to you shortly.</p>
         </div>
 
-        <form class="admission-form">
+        <div id="formStatus" class="form-status" style="display: none;"></div>
+
+        <form class="admission-form" id="admissionForm">
             <div class="form-group">
                 <label for="parentName">Parent/Guardian Name</label>
                 <input type="text" id="parentName" placeholder="John Doe" required>
@@ -38,9 +41,9 @@
             <div class="form-group">
                 <label for="gradeLevel">Grade Level of Interest</label>
                 <select id="gradeLevel">
-                    <option value="elementary">Elementary School</option>
-                    <option value="middle">Middle School</option>
-                    <option value="high">High School</option>
+                    <option value="Elementary School">Elementary School</option>
+                    <option value="Middle School">Middle School</option>
+                    <option value="High School">High School</option>
                 </select>
             </div>
 
@@ -53,10 +56,11 @@
         </form>
     </section>
 
-    <script src="script.js"></script>
     <footer>
         <p>&copy; 2026 Grand Academy. All Rights Reserved.</p>
         <p>Empowering Students to Lead and Innovate.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
