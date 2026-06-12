@@ -256,3 +256,48 @@ body {
     background-color: #d4af37;
     color: #0d233a;
 }
+/* Academics Page Specific Styles */
+.academics-hero {
+    background-color: #0d233a;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 4px solid #d4af37;
+}
+
+.academics-hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.programs-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.program-tier {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+    border-left: 5px solid #0d233a;
+}
+
+.program-tier h2 {
+    color: #0d233a;
+    margin-bottom: 15px;
+}
+
+.program-tier p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.program-tier ul {
+    padding-left: 20px;
+    color: #444;
+    line-height: 1.8;
+}
